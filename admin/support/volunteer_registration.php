@@ -40,19 +40,19 @@ input[type=submit]:hover {
     <input type="text" id="ename" name="firstname" placeholder="event name..">
 
     <label for="edesc">Contact</label>
-    <input type="text" id="lname" name="description" placeholder="Contact">
+    <input type="text" id="lname" name="contact" placeholder="Contact">
 
     <label for="edesc">Email Id</label>
-    <input type="text" id="lname" name="description" placeholder="Email Id">
+    <input type="text" id="lname" name="email" placeholder="Email Id">
 
     <label for="edesc">Age</label>
-    <input type="text" id="lname" name="description" placeholder="Age">
+    <input type="text" id="lname" name="age" placeholder="Age">
 
     <label for="edesc">Profession</label>
-    <input type="text" id="lname" name="description" placeholder="Profession">
+    <input type="text" id="lname" name="profession" placeholder="Profession">
 
     <label for="edesc">Pass Key</label>
-    <input type="text" id="lname" name="description" placeholder="Pass Key">
+    <input type="text" id="lname" name="passkey" placeholder="Pass Key">
 
     
   
