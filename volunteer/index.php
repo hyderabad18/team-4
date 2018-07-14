@@ -1,6 +1,6 @@
 <?php 
 
-	if($_SERVER['PHP_SELF'] == "/admin/index.php")
+	if($_SERVER['PHP_SELF'] == "/volunteer/index.php")
     {
     	if(isset($_GET['route']))
     	{

@@ -50,13 +50,13 @@ input[type=submit]:hover {
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">Volunteer List</div>
-    <div class="panel-body"><a href="#">Click here to view the Volunteer list</a></div>
+    <div class="panel-body"><a href="volunteer_list.php">Click here to view the Volunteer list</a></div>
   </div>
 </div>
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">Add Events</div>
-    <div class="panel-body"><a href="#">Click here to add the new event</a></div>
+    <div class="panel-body"><a href="event_entry.php">Click here to add new event</a></div>
   </div>
 </div>
 </div>
