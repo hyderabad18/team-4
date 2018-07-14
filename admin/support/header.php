@@ -10,15 +10,13 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<meta name="Keywords" content="OUCE,UCEOU, Placement, recruit">
 
-	<title>Placement - OUCE</title>
+	<title>Youth for Seva</title>
 
-	<link href="/library/css/bootstrap.css" rel="stylesheet" media="screen">
-	<link href="/library/css/thin-admin.css" rel="stylesheet" media="screen">
-	<link href="/library/css/font-awesome.css" rel="stylesheet" media="screen">
-	<link href="/library/css/style.css" rel="stylesheet">
-	<link href="/library/css/dashboard.css" rel="stylesheet">
+	<link rel="stylesheet" href="/library/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/library/css/stylesheet.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
-	<script src="../library/js/jquery.js"></script> 
+
 
 	<!-- <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/> -->
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
