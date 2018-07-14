@@ -44,7 +44,7 @@ input[type=submit]:hover {
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">Event List</div>
-    <div class="panel-body"><a href="#">Click here to view the event list</a></div>
+    <div class="panel-body"><a href="event_list.php">Click here to view the event list</a></div>
   </div>
 </div>
 <div class="container">
@@ -56,7 +56,7 @@ input[type=submit]:hover {
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">Add Events</div>
-    <div class="panel-body"><a href="#">Click here to view the event list</a></div>
+    <div class="panel-body"><a href="#">Click here to add the new event</a></div>
   </div>
 </div>
 </div>
