@@ -31,18 +31,22 @@ input[type=submit]:hover {
     padding: 20px;
 }
 </style>
-
-
- <div id="content">
-  <div class="card" >
+<head>
   
-  <div class="card-body">
-    <h5 class="card-title">Event List</h5>
-    <p class="card-text">Click if you want to get the list of events available.</p>
-   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">Event List</div>
+    <div class="panel-body"><a href="event_list.php">Click here to view the event list</a></div>
   </div>
 </div>
-<<<<<<< Updated upstream
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">Volunteer List</div>
@@ -53,29 +57,9 @@ input[type=submit]:hover {
   <div class="panel panel-default">
     <div class="panel-heading">Add Events</div>
     <div class="panel-body"><a href="event_entry.php">Click here to add new event</a></div>
-=======
-
-<div class="card" >
-  
-  <div class="card-body">
-    <h5 class="card-title">Volunteer List</h5>
-    <p class="card-text">Click if you want to check out the list of volunteers.</p>
-    
   </div>
 </div>
-
-<div class="card" >
-  
-  <div class="card-body">
-    <h5 class="card-title">Add Events</h5>
-    <p class="card-text">Click if you want to add new events.</p>
-   
->>>>>>> Stashed changes
-  </div>
 </div>
 
-
-</div>
-
-
+</body>
 
