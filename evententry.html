@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="Keywords" content="OUCE,UCEOU, Placement, recruit">
+
+    <title>Placement - OUCE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="support/stylesheet.css" rel="stylesheet">
+
+</head>
+<style>
+input[type=text], select
+ {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+<h3>Event Entry</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="ename">Event Name</label>
+    <input type="text" id="ename" name="firstname" placeholder="event name..">
+    <label for="edesc">Event Description</label>
+    <input type="text" id="lname" name="description" placeholder="Event Description..">
+
+    <label for="location">location</label>
+    <select id="location" name="location">
+      <option value="kukatpally">Kukatpally</option>
+      <option value="lbnagar">LBnagar</option>
+      <option value="mehdipatnam">Mehdipatnam</option>
+      <option value="vanasthalipuram">Vanasthalipuram</option>
+    </select>
+    <label for="startdate">Start Date</label>
+    <input type="text" id="sdate" name="Start Date" placeholder="Start Date..">
+    <label for="enddate">End Date</label>
+    <input type="text" id="edate" name="End Date" placeholder="End Date..">
+    <label for="no">Number of volunteers required</label>
+    <input type="text" id="no" name="no" placeholder="Number of volunteers required..">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
