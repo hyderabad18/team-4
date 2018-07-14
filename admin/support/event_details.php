@@ -36,6 +36,14 @@
 <div class="widget">
     <div class="widget-head">
         <h5>List of the Volunteers</h5>
+        <?php for ($i=0; $i < 5; $i++) {
+                echo "Name $i"; 
+        ?>
+        <br>
+    <?php } ?>
+    
+
+
     </div>
 
 </div>
