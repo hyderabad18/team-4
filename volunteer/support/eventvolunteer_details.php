@@ -1,3 +1,4 @@
+<?php
 <style>
 #notice {
     max-width: 1200px;
@@ -47,8 +48,10 @@
 <br>
 <p align="right">
 <button class="btn">Apply</button>
+header("Location : applybackend.php");
 </p>
 
 
 </div>
         </div>
+		?>
