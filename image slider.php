@@ -8,12 +8,12 @@
 </style>
 <body>
 
-<h2 class="w3-center">Automatic Slideshow</h2>
+<center><h2 class="w3-center">Youth For Seva</h2></center>
 
 <div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="yfsimg1.jpg" style="width:100%">
+  <img class="mySlides" src="imggg.jpg" style="width:100%">
   <img class="mySlides" src="yfsimg2.jpg" style="width:100%">
-  <img class="mySlides" src="yfsimg3.jpg" style="width:100%">
+  <img class="mySlides" src="imgggg.jpg" style="width:100%">
 </div>
 
 <script>
@@ -29,7 +29,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 2000);
 }
 </script>
 
