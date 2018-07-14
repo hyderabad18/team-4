@@ -2,7 +2,7 @@
 
 function main_db_connect() {
 
-	$conn = new mysqli('','root','sairanga97','oucecareers_new');
+	$conn = new mysqli('','root','sairanga97','yfs');
 	// Check connection
 	if ($conn->connect_error) 
 	{
