@@ -1,10 +1,13 @@
 
-
 /*body*/
 
 .navbar
 {
 	background-color: #303F9F;
+}
+
+.box-shadow
+{
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -25,4 +28,21 @@
 {
 	margin-top: 20px;
 	padding: 5px;
+}
+
+.footer
+{
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #303F9F;
+	color: #fff;
+}
+
+@media (min-width: 768px)
+{
+	#content
+	{
+		width: 700px;
+		margin: 0px auto;
+	}
 }
