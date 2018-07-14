@@ -185,7 +185,7 @@
 
 <body class="container-fluid">
     <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-10 offset-xs-1 login-outer">
-        <h3 class="text-center login-header">Admin Login</h3>
+        <h3 class="text-center login-header">Volunteer Login</h3>
         <h4 class="text-center">Sign In</h4>
         <input type="text" class="form-control login-input" id="username" placeholder="Username">
         <input type="password" class="form-control login-input" id="password" placeholder="Password">
