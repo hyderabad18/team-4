@@ -31,14 +31,15 @@ input[type=submit]:hover {
     padding: 20px;
 }
 </style>
-<title>Bootstrap Example</title>
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
+  <div class="content">
   <h2>Vidyachetana-Sponser a child </h2>
   <div class="panel panel-default">
     <div class="panel-body">
@@ -71,7 +72,6 @@ Dilsuknagar,Uppal,Secundrabad
 <h4>End Date</h4>29-08-2018 	
     </div>
     </div>
-  </div>
   <h2>Audio Recording for specially abled</h2>
   <div class="panel panel-default">
     <div class="panel-body">
@@ -83,7 +83,7 @@ Nagole,Secundrabad
  <h4>End Date</h4>15-09-2018
  </div>
 </div>
-  </div>
+
 
    <h2>NMMS</h2>
   <div class="panel panel-default">
@@ -96,5 +96,4 @@ Nagole,Panjagutta
  <h4>End Date</h4>15-09-2018
 </div>
   </div>
-</div>
 </div>
