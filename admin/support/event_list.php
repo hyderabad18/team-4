@@ -3,6 +3,11 @@
     max-width: 1200px;
     margin:0px auto;
 }
+
+a {
+    color:#000000;
+    text-decoration:none !important;
+}
 </style>
 
 <div id="notice">
@@ -11,6 +16,7 @@
 ?>    
   
 
+<a href="#">
   <div class="widget">
     <div class="widget-head">
         <h5>Vidyachetana-Sponser a child </h5>
@@ -33,7 +39,7 @@
     </div>
   </div>
 
-
+</a>
 <?php } ?>
 
 
