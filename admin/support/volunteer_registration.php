@@ -37,16 +37,16 @@ input[type=submit]:hover {
 <div id="form-layout">
   <form action="/action_page.php">
     <label for="ename"> Name</label>
-    <input type="text" id="ename" name="name" placeholder="event name..">
+    <input type="text" id="ename" name="name" placeholder="Volunteer Name">
 
     <label for="edesc">Contact</label>
-    <input type="text" id="lname" name="contact" placeholder="Contact">
+    <input type="text" id="lname" name="contact" placeholder="Phone Number">
 
     <label for="edesc">Email Id</label>
     <input type="text" id="lname" name="email" placeholder="Email Id">
 
     <label for="edesc">Location</label>
-    <input type="text" id="lname" name="location" placeholder="Age">
+    <input type="text" id="lname" name="location" placeholder="Location">
 
     <label for="edesc">Profession</label>
     <input type="text" id="lname" name="profession" placeholder="Profession">
