@@ -37,7 +37,6 @@
       <button type="button" class="btn btn-outline-light">Admin Login</button>
       <button type="button" class="btn btn-outline-light">Volunteer Login</button>
       <button type="button" class="btn btn-outline-light">Volunteer Register</button>
-
     </div>
   </div>  
 </div>
