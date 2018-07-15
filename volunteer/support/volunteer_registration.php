@@ -36,6 +36,8 @@ input[type=submit]:hover {
 
 <div id="form-layout">
   <form action="/action_page.php">
+	<center><h5><b>Volunteer Registration</b></h5></center><br>
+
     <label for="ename"> Name</label>
     <input type="text" id="ename" name="name" placeholder="event name..">
 

@@ -16,14 +16,6 @@
 	<link rel="stylesheet" href="/library/css/stylesheet.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
-
-
-	<!-- <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/> -->
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	      <script src="../../assets/js/html5shiv.js"></script>
-	      <script src="../../assets/js/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
 
