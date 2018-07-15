@@ -58,6 +58,7 @@ input[type=text],input[type=date],select
 
 <div id="content" class="container-fluid box-shadow">
   <form action="index?route=event_entry" method="POST" class="sm-12 md-6 md-offset-3">
+  	<h4>Add an Event</h4>
 	<label for="ename">Event Name</label>
 	<input type="text" id="ename" name="event_name" placeholder="event name.."  class="input-color">
 	<label for="edesc">Event Description</label>

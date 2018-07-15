@@ -70,6 +70,7 @@ input[type=text], select
   height: 100%;
   margin-left: -5px;
   padding:5px;
+  display: none;
   background-color: rgba(0,0,0,0.7);
   top: 0px;
   width: 100%;
@@ -114,10 +115,10 @@ input[type=text], select
 
 <div id="notice" style="margin-top: 20px;">
 <br>
-    <h4><b>Events</b></h4>
+    <h4><b>My Events</b></h4>
         <br>
 
-  <?php for ($i=0; $i < 5; $i++) { 
+  <?php for ($i=0; $i < 2; $i++) { 
 ?>    
 
   <div class="widget">
@@ -223,6 +224,11 @@ $('#out').click(function(){
             }
         }
       });
+  });
+
+  $('#check-in').click(function(){
+    $('#menu').trigger('click');
+    $('.blur').css('display','block'); 
   });
 
 </script>

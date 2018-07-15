@@ -91,6 +91,7 @@
 </div>
 
 <div id="content" class="container box-shadow" >
+    <h4>Register with Us</h4>
   <form action="registration" method="POST">
     <label for="ename"> Name</label>
     <input type="text"  name="name" placeholder="Name" required >

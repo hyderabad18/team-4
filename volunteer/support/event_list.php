@@ -46,6 +46,8 @@ a {
 
 </style>
 
+  <h4 class="text-center">Upcomming Events</h4>
+
 <div id="notice">
 
   <?php for ($i=0; $i < 5; $i++) { 

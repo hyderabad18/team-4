@@ -22,7 +22,7 @@
             <p><?php echo $res['description']; ?></p>
         </div>
         <div class="row">
-            <div class="widget-location col-12 col-sm-4">Location</div>
+            <div class="widget-location col-12 col-sm-4"><?php echo $res['location']; ?></div>
             <div class="widget-time col-12 col-sm-8">
                 <div class="time-from col-5"><?php echo $res['start_date']; ?></div>
                 <div class="time-from col-2">To</div>

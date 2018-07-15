@@ -21,6 +21,8 @@ a {
 }
 </style>
 
+  <h4 class="text-center">Upcomming Events</h4>
+
 <div id="notice">
 
   <?php while($row = $res->fetch_assoc())

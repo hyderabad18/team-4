@@ -18,6 +18,7 @@
     <ul class="col-12">
       <a href="index?route=dash"><li>Dashboard</li></a>
       <a href="index?route=event_list"><li>Event List</li></a>
+      <a id="check-in"><li>Check in</li></a>
     </ul>
 </div>
 

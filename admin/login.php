@@ -11,8 +11,6 @@
 
        $sql = "SELECT  `username`  FROM `admin` WHERE `username` = '$username' AND `password` = '$hashed'";
 
-       echo $sql;
-
        $res = $conn->query($sql);
 
        if ($res->num_rows == 1) 
