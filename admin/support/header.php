@@ -18,6 +18,8 @@
 
 	<script src="/library/js/jquery.min.js"></script>
 
+	<link rel="manifest" href="/manifest.json" />
+
 	<!-- <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/> -->
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>

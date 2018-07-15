@@ -1,0 +1,17 @@
+{
+  "name": "Youth for Seva",
+  "short_name": "YFS",
+  "description" : "Where youth can work for the betterment of the society",
+  "display": "standalone",
+  "start_url": "/admin",
+  "theme_color": "#303F9F",
+  "background_color": "#3F51B5",
+  "homepage_url":"https://localhost:1234/",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

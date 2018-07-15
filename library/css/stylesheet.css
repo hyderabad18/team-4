@@ -15,7 +15,7 @@
 	z-index: 100;
 	color: white;
 	padding: 5px 0px;
-	margin-top: -200px;
+	margin-top: -250px;
 	-webkit-transition: margin-top 500ms; /* Safari */
     transition: margin-top 500ms;
     left: 50%;

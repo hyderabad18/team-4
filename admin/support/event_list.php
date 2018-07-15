@@ -16,7 +16,7 @@ a {
 ?>    
   
 
-<a href="#">
+<a href="index?route=event_details&event_id=2">
   <div class="widget">
     <div class="widget-head">
         <h5>Vidyachetana-Sponser a child </h5>

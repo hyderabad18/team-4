@@ -16,9 +16,9 @@
 
 <div class="nav col-12" data-menu = "false">
     <ul class="col-12">
-      <a href=""><li>Dashboard</li></a>
-      <a href=""><li>Add Event</li></a>
-      <a href=""><li>Event List</li></a>
+      <a href="index?route=dash"><li>Dashboard</li></a>
+      <a href="index?route=event_entry"><li>Add Event</li></a>
+      <a href="index?route=event_list"><li>Event List</li></a>
     </ul>
 </div>
 
