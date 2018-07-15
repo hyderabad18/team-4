@@ -21,17 +21,17 @@
             if ($password === $cnfm_password) 
             {
                 $sql = "INSERT INTO `volunteer_reg`(`name`, `email`, `contact`, `profession`, `age` , `location`, `password`, `timestamp` ) VALUES ('$name' , '$email', '$contact' , '$profession' , '$age', '$location' , '$hashed' , NOW())";
-                // echo $sql;
-                if($conn->query($sql) === TRUE)
-                {
-                    echo '<script language="javascript">alert("Registered Sucessfully")</script>';
-                    header("Location: login");
-                }
-                else
-                {
-                    echo '<script language="javascript">alert("Error in Registering. Error: $conn->mysql_errno();")</script>';
-                    header("Location: registration.php");
-                }   
+                echo $sql;
+                // if($conn->query($sql) === TRUE)
+                // {
+                //     echo '<script language="javascript">alert("Registered Sucessfully")</script>';
+                //     header("Location: login");
+                // }
+                // else
+                // {
+                //     echo '<script language="javascript">alert("Error in Registering. Error: $conn->mysql_errno();")</script>';
+                //     header("Location: registration.php");
+                // }   
             }
             else
             {

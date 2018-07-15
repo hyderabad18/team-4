@@ -17,17 +17,17 @@
 
 	$logged = false;
 
-	// if (isset($_SESSION['user']) && $_SESSION['user']) 
- //    {
- //    	$logged = true;
- //    }
- //    else
- //    {
- //    	ob_start();
- //    	header('Location: '.'login');
- //    	ob_end_flush();
- //    	die();
- //    }
+	if (isset($_SESSION['user']) && $_SESSION['user'] == 'admin') 
+    {
+    	$logged = true;
+    }
+    else
+    {
+    	ob_start();
+    	header('Location: '.'login');
+    	ob_end_flush();
+    	die();
+    }
 
 
 ?>

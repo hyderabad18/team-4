@@ -1,3 +1,40 @@
+<?php 
+  
+  require_once ($_SERVER['DOCUMENT_ROOT']."/bridge/connection.php");
+  $conn = main_db_connect();
+
+  if (isset($_POST['username']) && isset($_POST['password'])) 
+  {
+        $username=mysqli_real_escape_string($conn,addslashes($_POST['username']));
+       $password=mysqli_real_escape_string($conn,addslashes($_POST['password']));
+       $hashed= hash('sha512',$password);
+
+       $sql = "SELECT  `username`  FROM `admin` WHERE `username` = '$username' AND `password` = '$hashed'";
+
+       echo $sql;
+
+       $res = $conn->query($sql);
+
+       if ($res->num_rows == 1) 
+       {
+             $row = $res->fetch_assoc();
+             session_start();
+             $_SESSION['user'] = $row['username'];
+             echo "<script>window.location.href='/admin/index'</script>";
+             // header('Location: index');
+
+
+       }
+       else
+       {
+             echo "<script>alert('Improper Passwords');</script>";
+       }
+  }
+
+
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -187,14 +224,16 @@
     <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-10 offset-xs-1 login-outer">
         <h3 class="text-center login-header">Admin Login</h3>
         <h4 class="text-center">Sign In</h4>
-        <input type="text" class="form-control login-input" id="username" placeholder="Username">
-        <input type="password" class="form-control login-input" id="password" placeholder="Password">
+        <form action="" method="post">
+                <input type="text" class="form-control login-input" id="username" name="username" placeholder="username">
+        <input type="password" class="form-control login-input" id="password" name="password" placeholder="Password">
         <br>
         <div class="text-center"><input type="checkbox" class="form-check-label login-checkbox" name="remember"><label for="remember">Keep me Signed In</label></div>
         <br><br>
         <div class="text-center">
             <button class="btn btn-outline-light login-submit" data-limit="<?php echo $var; ?>">SUBMIT</button>
         </div>
+        </form>
     </div>
 </body>
 </html>

@@ -1,3 +1,15 @@
+<?php 
+    
+     require_once ($_SERVER['DOCUMENT_ROOT']."/bridge/connection.php");
+      $conn = main_db_connect();
+
+
+      $stats_event = $conn->query("SELECT COUNT(`event_id`) FROM `event_entry` WHERE 1")->fetch_assoc()["COUNT(`event_id`)"];
+      $stats_user = $conn->query("SELECT COUNT(`v_id`) FROM `volunteer_reg` WHERE 1")->fetch_assoc()["COUNT(`v_id`)"];
+
+
+ ?>
+
 <style>
   .stat
   {
@@ -72,7 +84,7 @@
             <div class="col-4 text-center stats-icon stats-event-icon"><i class="fa fa-tasks" aria-hidden="true"></i></div>
             <div class="stat-info col-8">
                 <div class="stat-info-head col-12">Events So Far</div>
-                <div class="stat-info-num col-12">80</div>
+                <div class="stat-info-num col-12"><?php echo $stats_event; ?></div>
             </div>
         </div>
       </div>
@@ -81,7 +93,7 @@
             <div class="col-4 text-center stats-icon stats-user-icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
             <div class="stat-info col-8">
                 <div class="stat-info-head col-12">Volunteer's</div>
-                <div class="stat-info-num col-12">10</div>
+                <div class="stat-info-num col-12"><?php echo $stats_user; ?></div>
             </div>
         </div>
       </div>
@@ -90,7 +102,7 @@
             <div class="col-4 text-center stats-icon stats-active-icon"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></div>
             <div class="stat-info col-8">
               <div class="stat-info-head col-12">Active Events </div>
-              <div class="stat-info-num col-12">15</div>
+              <div class="stat-info-num col-12">1</div>
           </div>
         </div>
       </div>
@@ -99,7 +111,7 @@
             <div class="col-4 text-center stats-icon stats-impact-icon"><i class="fa fa-check-circle-o" aria-hidden="true"></i></div>
             <div class="stat-info col-8">
               <div class="stat-info-head col-12">Impact</div>
-              <div class="stat-info-num col-12">10</div>
+              <div class="stat-info-num col-12">2</div>
           </div>
         </div>
       </div>

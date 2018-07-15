@@ -9,7 +9,7 @@
         <h2 class="menu-txt">Youth for SEVA</h2>
     </div>
     <div class="sm-3">
-      <a href="" class="menu-btn"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+      <a href="/admin/logout" class="menu-btn"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
     </div>
   </div>  
 </div>
